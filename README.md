@@ -1,5 +1,5 @@
 # Chemistry AR
-This is an AR app for my school project
+AR mobile application for my school project
 
 
 ## Screenshots
