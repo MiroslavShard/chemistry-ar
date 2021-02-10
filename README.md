@@ -12,7 +12,7 @@ Of course yes, but <b>please, leave a message about me</b>. For example, `Mirosl
 
 
 ## Build with
-Unity Engine: 2020.2.1f1
+Unity 2020.2.1f1
 
 
 ## Contacts
