@@ -20,4 +20,4 @@ Unity Engine: 2020.2.1f1
 • [LinkedIn](https://www.linkedin.com/in/miroslavshard)
 
 
-© Miroslav Stetsiuk (@MiroslavShard) - 2021
+`© Miroslav Stetsiuk - 2021`
