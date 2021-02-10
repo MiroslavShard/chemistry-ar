@@ -8,7 +8,8 @@ It's too early to show anything :3
 
 
 ## Can I use this project?
-Of course yes, but <b>please, leave a message about me</b>. For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
+Of course yes, but <b>please, leave a message about me</b>. 
+For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
 
 
 ## Build with
