@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5101649833212172752
+  m_GuidHigh: 1093132682141251997
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5704077646688269946
+      m_GuidHigh: 10864091914786981793
+    m_SerializedTextureGuid:
+      m_GuidLow: 812012230659040947
+      m_GuidHigh: 16787970833852255192
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Hydrogen
+    m_Texture: {fileID: 2800000, guid: 51b466b3d8d20b44d8cb61e386dafae8, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5359601446212898988
+      m_GuidHigh: 14611109846330731679
+    m_SerializedTextureGuid:
+      m_GuidLow: 2203483385600072644
+      m_GuidHigh: 2865910176819632475
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Oxygen
+    m_Texture: {fileID: 2800000, guid: f32adbc458761e945bd9821f1fc2c527, type: 3}
