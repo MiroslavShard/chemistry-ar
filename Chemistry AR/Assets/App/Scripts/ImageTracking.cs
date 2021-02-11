@@ -10,14 +10,29 @@ public class ImageTracking : MonoBehaviour
 {
     private ARTrackedImageManager trackedImageManager;
 
+    private void Awake()
+    {
+        if (!trackedImageManager)
+        {
+            trackedImageManager = GetComponent<ARTrackedImageManager>();
+            trackedImageManager.trackedImagesChanged += ImageChanged;
+        }
+    }
+
     private void OnEnable()
     {
-        trackedImageManager.trackedImagesChanged += ImageChanged;
+        if (trackedImageManager)
+        {
+            trackedImageManager.trackedImagesChanged += ImageChanged;
+        }
     }
 
     private void OnDisable()
     {
-        trackedImageManager.trackedImagesChanged -= ImageChanged;
+        if (trackedImageManager)
+        {
+            trackedImageManager.trackedImagesChanged -= ImageChanged;
+        }
     }
 
     private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
@@ -28,11 +43,7 @@ public class ImageTracking : MonoBehaviour
 
             if (trackedImage.trackingState != TrackingState.None)
             {
-                switch (trackedImage.referenceImage.name)
-                {
-                    default:
-                        break;
-                }
+                parent.GetComponent<ObjectLibrary>().objects[trackedImage.name].SetActive(true);
             }
         }
     }
