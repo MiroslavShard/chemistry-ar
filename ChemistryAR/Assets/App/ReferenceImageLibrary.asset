@@ -12,26 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 5101649833212172752
-  m_GuidHigh: 1093132682141251997
+  m_GuidLow: 4756796609146002949
+  m_GuidHigh: 326442716518476961
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5704077646688269946
-      m_GuidHigh: 10864091914786981793
+      m_GuidLow: 4753294396763492801
+      m_GuidHigh: 16909335265601004942
     m_SerializedTextureGuid:
-      m_GuidLow: 812012230659040947
-      m_GuidHigh: 16787970833852255192
+      m_GuidLow: 7504186200192601185
+      m_GuidHigh: 11788619450320143769
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Hydrogen
-    m_Texture: {fileID: 2800000, guid: 51b466b3d8d20b44d8cb61e386dafae8, type: 3}
+    m_Texture: {fileID: 2800000, guid: 16de4c613997682499c59768ee9699a3, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5359601446212898988
-      m_GuidHigh: 14611109846330731679
+      m_GuidLow: 4690437207200294492
+      m_GuidHigh: 10009209513967991715
     m_SerializedTextureGuid:
-      m_GuidLow: 2203483385600072644
-      m_GuidHigh: 2865910176819632475
+      m_GuidLow: 6666617720131052801
+      m_GuidHigh: 14223744280144065464
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Oxygen
-    m_Texture: {fileID: 2800000, guid: f32adbc458761e945bd9821f1fc2c527, type: 3}
+    m_Texture: {fileID: 2800000, guid: c5bc6501957e5c84b833fbe90fe464c5, type: 3}
