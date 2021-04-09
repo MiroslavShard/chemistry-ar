@@ -182,6 +182,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &362529732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 362529734}
+  - component: {fileID: 362529733}
+  m_Layer: 0
+  m_Name: Object Library
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &362529733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362529732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfe9fa6247561e48b9cb3c905cfd00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectLibrary:
+  - name: Hydrogen
+    prefab: {fileID: 5513617606949569703, guid: eff806b551d804a4b823edcfeb363f93, type: 3}
+  - name: Oxygen
+    prefab: {fileID: 6277528744780088973, guid: 1460778f399c61643a4e80341a1b8b87, type: 3}
+--- !u!4 &362529734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362529732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 21cf831e6eb7f614b899e8385efbbfa5, type: 2}
-  m_MaxNumberOfMovingImages: 4
-  m_TrackedImagePrefab: {fileID: 6277528744780088973, guid: eff806b551d804a4b823edcfeb363f93, type: 3}
+  m_MaxNumberOfMovingImages: 1
+  m_TrackedImagePrefab: {fileID: 2451042061616752184, guid: 706ba75424915874192f751bece24985, type: 3}
 --- !u!114 &881459398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e21d2a919efb6bc439f3b00642b0a5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentAtom: {fileID: 0}
 --- !u!1 &1134195795
 GameObject:
   m_ObjectHideFlags: 0

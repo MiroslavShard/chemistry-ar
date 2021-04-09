@@ -8,6 +8,8 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
+    public GameObject currentAtom = null;
+
     private ARTrackedImageManager trackedImageManager;
 
     private void Awake()
@@ -15,36 +17,30 @@ public class ImageTracking : MonoBehaviour
         if (!trackedImageManager)
         {
             trackedImageManager = GetComponent<ARTrackedImageManager>();
-            trackedImageManager.trackedImagesChanged += ImageChanged;
         }
     }
 
     private void OnEnable()
     {
-        if (trackedImageManager)
-        {
-            trackedImageManager.trackedImagesChanged += ImageChanged;
-        }
+        trackedImageManager.trackedImagesChanged += ImageChanged;
     }
 
     private void OnDisable()
     {
-        if (trackedImageManager)
-        {
-            trackedImageManager.trackedImagesChanged -= ImageChanged;
-        }
+        trackedImageManager.trackedImagesChanged -= ImageChanged;
     }
 
     private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
+        foreach (var trackedImage in eventArgs.removed)
+        {
+            Destroy(currentAtom);
+        }
+
         foreach (var trackedImage in eventArgs.added)
         {
-            GameObject parent = trackedImage.transform.GetChild(0).gameObject;
-
-            if (trackedImage.trackingState != TrackingState.None)
-            {
-                parent.GetComponent<ObjectLibrary>().objects[trackedImage.name].SetActive(true);
-            }
+            currentAtom = Instantiate(ObjectLibrary.instance.objects[trackedImage.referenceImage.name], trackedImage.transform);
+            currentAtom.GetComponent<Atom>().target = trackedImage.transform;
         }
     }
 }
