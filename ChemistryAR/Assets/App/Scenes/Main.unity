@@ -212,10 +212,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectLibrary:
-  - name: Hydrogen
+  - name: Hydrogen-1
     prefab: {fileID: 5513617606949569703, guid: eff806b551d804a4b823edcfeb363f93, type: 3}
+  - name: Hydrogen-2
+    prefab: {fileID: 5513617606949569703, guid: eff806b551d804a4b823edcfeb363f93, type: 3}
+  - name: Carbon
+    prefab: {fileID: 4933058148483137779, guid: 6352436d1c5771348bc16a54c8b03565, type: 3}
+  - name: Nitrogen
+    prefab: {fileID: 1656888860060344049, guid: d85a17f2390aca34e8a0ef2f074429e6, type: 3}
   - name: Oxygen
     prefab: {fileID: 6277528744780088973, guid: 1460778f399c61643a4e80341a1b8b87, type: 3}
+  - name: Fluorine
+    prefab: {fileID: 5464372575969236077, guid: 9336b7c8ef3b74d4c86556c7962239e0, type: 3}
+  - name: Aluminum
+    prefab: {fileID: 9020536220001775594, guid: ece347690ff214b4aae986b08e2cf1fa, type: 3}
+  - name: Phosphorus
+    prefab: {fileID: 4709030462659013068, guid: 28fd7bca47170cb40be97517f85b0438, type: 3}
 --- !u!4 &362529734
 Transform:
   m_ObjectHideFlags: 0

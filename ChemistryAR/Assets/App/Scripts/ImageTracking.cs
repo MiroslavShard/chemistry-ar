@@ -8,7 +8,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
-    public GameObject currentAtom = null;
+    private Dictionary<string, GameObject> atom = null;
 
     private ARTrackedImageManager trackedImageManager;
 
@@ -34,13 +34,13 @@ public class ImageTracking : MonoBehaviour
     {
         foreach (var trackedImage in eventArgs.removed)
         {
-            Destroy(currentAtom);
+            Destroy(atom[trackedImage.name]);
         }
 
         foreach (var trackedImage in eventArgs.added)
         {
-            currentAtom = Instantiate(ObjectLibrary.instance.objects[trackedImage.referenceImage.name], trackedImage.transform);
-            currentAtom.GetComponent<Atom>().target = trackedImage.transform;
+            atom.Add(trackedImage.name, Instantiate(ObjectLibrary.instance.objects[trackedImage.referenceImage.name], trackedImage.transform));
+            atom[trackedImage.name].GetComponent<Atom>().target = trackedImage.transform;
         }
     }
 }
