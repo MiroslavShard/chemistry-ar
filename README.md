@@ -13,7 +13,7 @@ For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
 
 
 ## Build with
-• Unity 2020.2.1f1<br>
+• Unity 2020.2.4f1<br>
 • Google ARCore
 
 
