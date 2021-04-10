@@ -8,8 +8,6 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
-    private Dictionary<string, GameObject> atoms = null;
-
     private ARTrackedImageManager trackedImageManager;
 
     private void Awake()
