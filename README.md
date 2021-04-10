@@ -23,7 +23,9 @@ For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
 
 
 ## Important note
-Never use spaces in the Unity XR project path. Unity cannot create XR Reference Image Library if project path contains spaces.
+1. Never use spaces in the Unity XR project path. Unity cannot create XR Reference Image Library if project path contains spaces.
+
+2. Never use QR codes for AR image tracking. Instead of QR codes you can use AR markers. The marker generator I used in this project is [ArUco markers generator](https://chev.me/arucogen/).
 
 
 ## Contacts
