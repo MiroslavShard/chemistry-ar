@@ -3,8 +3,13 @@ AR mobile application for my school project
 
 
 ## Screenshots
-### Menu
-It's too early to show anything :3
+![Hydrogen](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/1.JPG)
+![Carbon](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/6.JPG)
+![Nitrogen](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/7.JPG)
+![Oxygen](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/8.JPG)
+![Fluorine](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/9.JPG)
+![Aluminum](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/13.JPG)
+![Phosphorus](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/15.JPG)
 
 
 ## Can I use this project?
