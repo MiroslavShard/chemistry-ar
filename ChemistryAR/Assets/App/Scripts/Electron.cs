@@ -6,6 +6,6 @@ public class Electron : MonoBehaviour
 {
     private void FixedUpdate()
     {
-        transform.Rotate(0f, 90f * Time.deltaTime, 0f);
+        transform.Rotate(0f, 50f * Time.deltaTime, 0f);
     }
 }

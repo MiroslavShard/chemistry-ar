@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ObjectLibrary : MonoBehaviour
 {
-    public List<Object> objectLibrary = new List<Object>();
+    [SerializeField] private List<GameObject> objectLibrary = new List<GameObject>();
 
-    public Dictionary<string, GameObject> objects = new Dictionary<string, GameObject>();
+    [HideInInspector] public Dictionary<string, GameObject> objects = new Dictionary<string, GameObject>();
 
     #region Singleton activation
     [HideInInspector] public static ObjectLibrary instance;
@@ -16,8 +16,6 @@ public class ObjectLibrary : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-
-            GenerateLibrary();
         }
         else
         {
@@ -27,18 +25,11 @@ public class ObjectLibrary : MonoBehaviour
     }
     #endregion
 
-    private void GenerateLibrary()
+    public void GenerateLibrary()
     {
         foreach (var gameObject in objectLibrary)
         {
-            objects.Add(gameObject.name, gameObject.prefab);
+            objects.Add(gameObject.name, gameObject);
         }
     }
-}
-
-[System.Serializable]
-public class Object
-{
-    public string name;
-    public GameObject prefab;
 }
