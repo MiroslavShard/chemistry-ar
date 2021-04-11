@@ -8,7 +8,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
-    private ARTrackedImageManager trackedImageManager;
+    private ARTrackedImageManager trackedImageManager = null;
 
     private void Awake()
     {
@@ -61,7 +61,7 @@ public class ImageTracking : MonoBehaviour
         if (trackedImage.trackingState == TrackingState.Tracking)
         {
             ObjectLibrary.instance.objects[trackedImage.referenceImage.name].SetActive(true);
-            ObjectLibrary.instance.objects[trackedImage.referenceImage.name].transform.position = new Vector3(trackedImage.transform.position.x, trackedImage.transform.position.y + 0.04f, trackedImage.transform.position.z);
+            ObjectLibrary.instance.objects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
             ObjectLibrary.instance.objects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
         }
         else
