@@ -12,7 +12,7 @@ public class Element : MonoBehaviour
     public List<GameObject> molecules = new List<GameObject>();
     [Space(5)]
 
-    public bool reacted = false;
+    [HideInInspector] public bool reacted = false;
 
     [HideInInspector] public GameObject atom = null;
     [HideInInspector] public Trigger[] triggers = null;
@@ -20,18 +20,20 @@ public class Element : MonoBehaviour
 
     private void Awake()
     {
+        // Setup rigidbody
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.useGravity = false;
         rigidbody.isKinematic = true;
 
+        // Get atom gameobject (always first in tree, so index = 0)
         atom = transform.GetChild(0).gameObject;
 
+        // Get all triggers in children objects
         triggers = GetComponentsInChildren<Trigger>();
 
+        // Build reactions dictionary
         foreach (var molecule in molecules)
-        {
             reactions.Add(molecule.name, molecule);
-        }
     }
 
     public void React()
@@ -43,10 +45,9 @@ public class Element : MonoBehaviour
             List<string> symbols = new List<string>();
 
             foreach (var symbol in triggers)
-            {
                 symbols.Add(symbol.element.symbol);
-            }
 
+            // H2O
             if (symbols[0] == "H" && symbols[1] == "H")
             {
                 atom.SetActive(false);

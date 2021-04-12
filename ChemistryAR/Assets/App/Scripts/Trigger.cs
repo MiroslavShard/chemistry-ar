@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
-    public Element element;
+    [HideInInspector] public Element element;
 
     private void OnTriggerEnter(Collider other)
     {
-        element = other.GetComponentInParent<Element>();
+        if (!element) element = other.GetComponentInParent<Element>();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        element = null;
+        if (element) element = null;
     }
 }
