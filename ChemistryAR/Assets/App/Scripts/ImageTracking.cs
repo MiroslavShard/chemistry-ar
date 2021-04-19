@@ -8,24 +8,21 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
-    private ARTrackedImageManager trackedImageManager = null;
+    private ARTrackedImageManager m_trackedImageManager = null;
 
     private void Awake()
     {
-        if (!trackedImageManager)
-        {
-            trackedImageManager = GetComponent<ARTrackedImageManager>();
-        }
+        if (!m_trackedImageManager) m_trackedImageManager = GetComponent<ARTrackedImageManager>();
     }
 
     private void OnEnable()
     {
-        trackedImageManager.trackedImagesChanged += OnImageChanged;
+        m_trackedImageManager.trackedImagesChanged += OnImageChanged;
     }
 
     private void OnDisable()
     {
-        trackedImageManager.trackedImagesChanged -= OnImageChanged;
+        m_trackedImageManager.trackedImagesChanged -= OnImageChanged;
     }
 
     private void Start()

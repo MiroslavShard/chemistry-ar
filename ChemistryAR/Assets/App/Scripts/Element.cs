@@ -45,14 +45,14 @@ public class Element : MonoBehaviour
             List<string> symbols = new List<string>();
 
             foreach (var symbol in triggers)
-                symbols.Add(symbol.element.symbol);
+                symbols.Add(symbol.m_element.symbol);
 
             // H2O
             if (symbols[0] == "H" && symbols[1] == "H")
             {
                 atom.SetActive(false);
-                triggers[0].element.atom.SetActive(false);
-                triggers[1].element.atom.SetActive(false);
+                triggers[0].m_element.atom.SetActive(false);
+                triggers[1].m_element.atom.SetActive(false);
 
                 reactions["H2O"].SetActive(true);
             }
@@ -66,8 +66,8 @@ public class Element : MonoBehaviour
             reacted = false;
 
             atom.SetActive(true);
-            triggers[0].element.atom.SetActive(true);
-            triggers[1].element.atom.SetActive(true);
+            triggers[0].m_element.atom.SetActive(true);
+            triggers[1].m_element.atom.SetActive(true);
 
             reactions["H2O"].SetActive(false);
         }
