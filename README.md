@@ -12,7 +12,8 @@ AR mobile application for my school project.
 ![Phosphorus](https://github.com/MiroslavShard/chemistry-ar/blob/main/ChemistryAR/Media/Photos/15.JPG)
 
 ## Videos
-[Demo 1](https://youtu.be/7lIZQ3iKIzc)
+[Demo 1](https://youtu.be/7lIZQ3iKIzc)<br>
+[Demo 2](https://youtu.be/nW2wcJIgf4A)
 
 ## Can I use this project?
 Of course yes, because this project is licensed under the [MIT License](https://github.com/MiroslavShard/chemistry-ar/blob/main/LICENSE), but <b>please, leave a message about me</b>.<br>
