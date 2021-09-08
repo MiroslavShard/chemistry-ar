@@ -33,7 +33,10 @@ For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
 
 ## Contacts
 • [Twitter](https://twitter.com/miroslavshard)<br>
-• [LinkedIn](https://www.linkedin.com/in/miroslavshard)
+• [Instagram](https://www.instagram.com/miroslavshard)<br>
+• [Reddit](https://www.reddit.com/)<br>
+• [LinkedIn](https://www.linkedin.com/in/miroslavshard)<br>
+• [Facebook](https://www.facebook.com/miroslavshard/)
 
 
 `© Miroslav Stetsiuk - 2021`
