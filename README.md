@@ -16,8 +16,7 @@ AR mobile application for my school project.
 [Demo 2](https://youtu.be/nW2wcJIgf4A)
 
 ## Can I use this project?
-Of course yes, because this project is licensed under the [MIT License](https://github.com/MiroslavShard/chemistry-ar/blob/main/LICENSE), but <b>please, leave a message about me</b>.<br>
-For example, `Thanks to Miroslav Stetsiuk` or `Thanks to @MiroslavShard`.
+Of course yes! Also feel free to ask any questions about the project, I will try to answer asap 😉
 
 
 ## Build with
