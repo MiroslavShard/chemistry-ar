@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4756796609146002949
+  m_GuidHigh: 326442716518476961
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4753294396763492801
+      m_GuidHigh: 16909335265601004942
+    m_SerializedTextureGuid:
+      m_GuidLow: 4878602103116455634
+      m_GuidHigh: 1164539533461246683
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Hydrogen-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4690437207200294492
+      m_GuidHigh: 10009209513967991715
+    m_SerializedTextureGuid:
+      m_GuidLow: 13633601796909828386
+      m_GuidHigh: 7407039648644995065
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Hydrogen-2
+    m_Texture: {fileID: 2800000, guid: b1f009224899bd34f917b8f65017cb66, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5618807921101510770
+      m_GuidHigh: 7681992275341162929
+    m_SerializedTextureGuid:
+      m_GuidLow: 6666617720131052801
+      m_GuidHigh: 14223744280144065464
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Oxygen
+    m_Texture: {fileID: 2800000, guid: c5bc6501957e5c84b833fbe90fe464c5, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4852813774840587040
+      m_GuidHigh: 2297773878632284548
+    m_SerializedTextureGuid:
+      m_GuidLow: 2901635510363835193
+      m_GuidHigh: 9902619555114292857
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Carbon
+    m_Texture: {fileID: 2800000, guid: 86e54b39ae1f284479966ce0042c6d89, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5443026146828987566
+      m_GuidHigh: 14819590256829636768
+    m_SerializedTextureGuid:
+      m_GuidLow: 6202673509352384781
+      m_GuidHigh: 1724661380075449531
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Nitrogen
+    m_Texture: {fileID: 2800000, guid: 8eaca90d52b15614bb6c3b35633aef17, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5560056558748652649
+      m_GuidHigh: 10425701924361360263
+    m_SerializedTextureGuid:
+      m_GuidLow: 6540584233137295924
+      m_GuidHigh: 16830939069151800232
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Fluorine
+    m_Texture: {fileID: 2800000, guid: dfab5234d2b45ac4a86b09c5e88193e9, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5450225911710427169
+      m_GuidHigh: 8463230533502753941
+    m_SerializedTextureGuid:
+      m_GuidLow: 16943845102185059771
+      m_GuidHigh: 15273954026974728505
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Aluminum
+    m_Texture: {fileID: 2800000, guid: 1cfb95bba159eb2439d1793d43fcf7d3, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5418284556013061932
+      m_GuidHigh: 2572959263242636200
+    m_SerializedTextureGuid:
+      m_GuidLow: 12480837587237760450
+      m_GuidHigh: 6970005670151687865
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: Phosphorus
+    m_Texture: {fileID: 2800000, guid: c6a66dc2d7a8ad34b98ed9733a6fba60, type: 3}
