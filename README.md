@@ -3,10 +3,10 @@ AR mobile application for my school project. There are 7 chemical elements (atom
 
 
 ## Screenshots
-<img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/1.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/6.jpg" width="49%" height="49%">
-<img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/7.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/8.jpg" width="49%" height="49%"> 
-<img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/9.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/13.jpg" width="49%" height="49%"> 
-<img src="https://github.com/MiroslavShard/chemistry-ar/blob/1.1.0/Chemistry%20AR/Media/Photos/15.jpg" width="49%" height="49%">
+<img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/1.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/6.jpg" width="49%" height="49%">
+<img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/7.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/8.jpg" width="49%" height="49%"> 
+<img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/9.jpg" width="49%" height="49%"> <img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/13.jpg" width="49%" height="49%"> 
+<img src="https://github.com/MiroslavShard/chemistry-ar/blob/main/Chemistry%20AR/Media/Photos/15.jpg" width="49%" height="49%">
 
 
 ## Videos
