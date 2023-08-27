@@ -10,8 +10,8 @@ AR mobile application for my school project. There are 7 chemical elements (atom
 
 
 ## Videos
-[![Demo 1](https://img.youtube.com/vi/7lIZQ3iKIzc/0.jpg)](https://www.youtube.com/watch?v=7lIZQ3iKIzc "Demo 1")
-[![Demo 2](https://img.youtube.com/vi/nW2wcJIgf4A/0.jpg)](https://www.youtube.com/watch?v=nW2wcJIgf4A "Demo 2")
+<a href="https://www.youtube.com/watch?v=7lIZQ3iKIzc"><img src="https://img.youtube.com/vi/7lIZQ3iKIzc/0.jpg" width="49%" height="49%"></a>
+<a href="https://www.youtube.com/watch?v=nW2wcJIgf4A"><img src="https://img.youtube.com/vi/nW2wcJIgf4A/0.jpg" width="49%" height="49%"></a>
 
 
 ## Can I use this project?
@@ -36,7 +36,7 @@ Of course yes! Also feel free to ask any questions about the project, I will try
 
 ## Build with
 • Unity 2021.3.28f1 (LTS)<br>
-• Google ARCore / Apple ARKit
+• Google ARCore & Apple ARKit
 
 
 ## Contacts
